@@ -1,0 +1,22 @@
+.infinity {
+  position: relative;
+}
+
+.infinity::after, .infinity::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 20px solid red;
+  border-radius: 0 50% 50% 50%;
+  transform: rotate(-45deg);
+}
+
+.infinity::before {
+  left: 102px;
+}
+
+.infinity::after {
+  transform: rotate(135deg);
+}

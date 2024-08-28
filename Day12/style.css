@@ -1,0 +1,25 @@
+.burst {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 50px;
+  position: relative;
+}
+
+
+.burst::before, .burst::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-color: red;
+  position: absolute;
+}
+
+.burst::before {
+  transform: rotate(-25deg);
+}
+
+.burst::after {
+  transform: rotate(34deg);
+}

@@ -1,0 +1,17 @@
+.pencil {
+    display: flex;
+    width: 500px;
+    height: 100px;
+  }
+  
+  .trunk {
+    flex: 1 0 80%;
+    background-color: black;
+    clip-path: polygon(0px 0px, 100% 0px, 95.74% 16.00%, 100.54% 34%, 95.86% 51%, 100.06% 69.98%, 95.76% 84%, 99.94% 99.43%, 0.25% 102%);
+  }
+  
+  .head {
+    clip-path: polygon(0px 100px, 0% 0px, 100% 50.00%);
+    flex: 1 0 20%;
+    background-color: black;
+  }

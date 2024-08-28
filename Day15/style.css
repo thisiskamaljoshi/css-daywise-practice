@@ -1,0 +1,83 @@
+.bird {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 10px 20px;
+    position: relative;
+  }
+  
+  .head {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 100%;
+    right: 58px;
+    top: 44px;
+    border: 14px solid #fff;
+    z-index: 3;
+  }
+  .eyes {
+    position: absolute;
+    top: 36%;
+    right: 27%;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+  
+  .tail {
+    position: absolute;
+    top: 145px;
+    left: 41px;
+    background-color: black;
+    width: 130px;
+    height: 92px;
+    border-radius: 10% 20% 30% 100%;
+    transform: rotate(-36deg);
+    border: 14px solid white;
+    z-index: 2;
+  }
+  
+  .beak {
+    width: 36px;
+    height: 55px;
+    background-color: black;
+    border-radius: 0% 250% 64% 0%;
+    position: absolute;
+    right: 32px;
+    top: 102px;
+  }
+  
+  .body {
+    width: 150px;
+    height: 117px;
+    background-color: black;
+    border-radius: 81% 196% 181% 67%;
+    position: absolute;
+    bottom: 38px;
+    right: 65px;
+    z-index: 1;
+  }
+  
+  .legs {
+    width: 15px;
+    height: 22px;
+    background-color: white;
+    border-left: 13px solid black;
+    border-right: 13px solid black;
+    position: absolute;
+    bottom: 17px;
+    right: 123px;
+  }
+  
+  .feet {
+    width: 72px;
+    height: 13px;
+    background-color: black;
+    position: absolute;
+    bottom: 9px;
+    right: 108px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,33 @@
+.badge {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  position: relative;
+  transform: rotate(18deg);
+}
+
+.badge::after, .badge::before {
+  width: 100px;
+  height: 75px;
+  content: "";
+  display: block;
+  background-color: red;
+  position: absolute;
+  top: 56px;
+}
+
+
+.badge::after {
+  clip-path: polygon(50% 0%, 0 56%, 77% 75%);
+  right: -36px;
+}
+
+.badge::before {
+  clip-path: polygon(50% 0%, 0 56%, 77% 75%);
+  transform: rotate(-57deg);
+  right: -9px;
+}
+
+
+

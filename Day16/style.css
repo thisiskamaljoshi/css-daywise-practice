@@ -1,0 +1,38 @@
+input[type="checkbox"] ~ .accordian-content{
+    display: none;
+}
+
+
+.accordian-header{
+    position: relative;
+    display: block;
+    padding:10px;
+    margin:10px 0;
+}
+
+.accordian-header::after{
+    content:"";
+    display: block;
+    width:10px;
+    height:10px;
+    background-color: #fff;
+    position: absolute;
+    right:10px;
+    top:0;
+    border:5px solid #444;
+    transform: rotate(45deg);
+    border-top:transparent;
+    border-left: transparent;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .accordian-content{
+    display: block;
+}
+
+.accordian-content{
+    padding:10px;
+}

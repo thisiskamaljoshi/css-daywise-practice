@@ -1,0 +1,19 @@
+.magnify {
+  width: 70px;
+  height: 70px;
+  border: 20px solid red;
+  border-radius: 100%;
+  position: relative;
+}
+
+.magnify::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 70px;
+  position: absolute;
+  background-color: red;
+  transform: rotate(-45deg);
+  top: 52px;
+  right: -29px;
+}

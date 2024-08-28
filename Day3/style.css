@@ -1,0 +1,76 @@
+.lockBox {
+  width: 100px;
+}
+
+.top {
+  width: 80px;
+  display: flex;
+  padding: 0 10px;
+}
+
+.left {
+  background: red;
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 100%;
+  position: relative;
+}
+
+.leftInner {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+}
+
+.right {
+  background: red;
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 100%;
+  position: relative;
+}
+
+.rightInner {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100%;
+}
+
+.bottom {
+  background-color: red;
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyhole {
+  height: 27px;
+  width: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.tophole {
+    height: 15px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  top: -4%;
+  background-color: #fff;
+  width: 150%;
+  left: -25.6%;
+}

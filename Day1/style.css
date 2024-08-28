@@ -1,0 +1,29 @@
+.triangle {
+    width: 160px;
+    height: 160px;
+    background-color: #101820;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .triangle > *{
+    width:80px;
+    height:80px;
+    background-color:#FEE715;
+  }
+  
+  .top-left-triangle {
+    clip-path: polygon(0px 0px, 100% 0px, 0% 100%);
+  }
+  
+  .top-right-triangle {
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%);
+  }
+  
+  .bottom-left-triangle {
+    clip-path: polygon(0px 0px, 100% 80px, 0% 100%);
+  }
+  
+  .bottom-right-triangle {
+    clip-path: polygon(0px 80px, 100% 0px, 100% 100%);
+  }

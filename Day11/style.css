@@ -1,0 +1,21 @@
+.moon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+  position: relative;
+}
+
+
+.moon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 100%;
+  bottom: 20px;
+  right: 20px;
+}
+

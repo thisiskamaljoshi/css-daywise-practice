@@ -1,0 +1,33 @@
+.facebook {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 5px;
+  position: relative;
+}
+
+.facebook::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 35px;
+  height: 15px;
+  right: 19px;
+  position: absolute;
+  top: 58px;
+}
+
+
+.facebook::before {
+  content: "";
+  display: block;
+  background-color: red;
+  border-top: 15px solid #fff;
+  position: absolute;
+  bottom: 0px;
+  border-left: 15px solid #fff;
+  width: 20px;
+  height: 60px;
+  right: 9px;
+  border-top-left-radius: 20px;
+}

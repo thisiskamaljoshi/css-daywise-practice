@@ -1,0 +1,30 @@
+.yinyang {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 100%;
+}
+
+.yinyang::after,.yinyang::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  border-radius: 100%;
+}
+.yinyang::after {
+  background-color: black;
+  border: 19px solid #fff;
+  right: 0;
+}
+.yinyang::before {
+  background-color: #fff;
+  border: 19px solid black;
+}

@@ -1,0 +1,42 @@
+.heart {
+  width: 95px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.top {
+  height: 50px;
+  position: relative;
+}
+
+.left {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.right {
+  width: 50px;
+  background-color: red;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.bottom {
+  width: 95px;
+  height: 115px;
+  position: absolute;
+  top: 35px;
+  clip-path: polygon(50% 50%, 4px 5px, 94.84% 4px);
+  right: -1px;
+  background-color: red;
+}
